@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">来和佐助聊天</string>
+    <string name="bmob_application_id">90c81251126a8e0484eb49784df058c1</string>
+    <string name="dialog_bg_gray_color">#e2e1e1</string>
+
+    <!-- 欢迎语 -->
+    <string-array name="welcome_tips_zuozhu">
+        <item>我在此等候多时了</item>
+        <item>多年不见，你还是没长进</item>
+        <item>你这吊车尾，哼</item>
+        <item>你还差的远呢</item>
+        <item>你还有什么想说的吗</item>
+    </string-array>
+
+    <!-- 欢迎语 -->
+    <string-array name="welcome_tips_chutian">
+        <item>我想你了</item>
+        <item>最近过的好吗</item>
+        <item>好久没见你了呢</item>
+        <item>你还好吗</item>
+        <item>你怎么样了</item>
+    </string-array>
+
+    <string name="purchase_description">购买本项目源码需要支付￥10的费用，购买后可以任意使用，若有问题请联系我。\n邮箱：shenggq558@163.com</string>
+</resources>

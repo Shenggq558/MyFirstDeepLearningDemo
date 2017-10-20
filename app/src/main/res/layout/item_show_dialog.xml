@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <RelativeLayout
+        android:id="@+id/robotWord"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/robotIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/ivRobotSpace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/robotIcon"
+            android:layout_alignBottom="@id/robotIcon"
+            android:src="@mipmap/triangle_left"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ivRobotSpace"
+            android:layout_marginLeft="-8dp"
+            android:padding="10dp"
+            android:background="@drawable/shape_corner_dialog">
+
+            <TextView
+                android:id="@+id/robotContext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能机器人说话：杀死到发阿什顿发的顺丰个地方阿斯蒂芬申达股份阿萨德发阿发晚上玩阿斯蒂芬大范甘迪阿斯顿发生地方"
+                android:textSize="15sp"
+                android:maxEms="300"
+                android:textColor="#000" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/customerWord"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/customerIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/my_icon" />
+
+        <ImageView
+            android:id="@+id/ivCustomerSpace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/customerIcon"
+            android:layout_alignBottom="@id/customerIcon"
+            android:src="@mipmap/triangle_right"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@id/ivCustomerSpace"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-8dp"
+            android:padding="10dp"
+            android:background="@drawable/shape_corner_dialog">
+
+            <TextView
+                android:id="@+id/customerContext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客户说话：爱迪生发达的说法撒旦法师打发顺丰大厦阿斯顿发生地方撒阿斯顿发生的发是"
+                android:textSize="15sp"
+                android:maxEms="300"
+                android:textColor="#000" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
